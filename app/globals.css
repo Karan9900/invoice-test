@@ -62,6 +62,11 @@
   padding: 1rem;
 }
 
+.xyz{
+  display: flex;
+  width: 100vw;
+}
+
 /* Media queries for finer control on mobile devices */
 @media (max-width: 640px) {
   .PopoverContent {
@@ -69,4 +74,9 @@
     max-height: 80vh;
     padding: 0.75rem;
   }
+  .xyz{
+    flex-direction: column;
+  }
+  
+
 }
